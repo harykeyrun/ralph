@@ -226,8 +226,8 @@ DEFAULT_COUNTRY_CODE = os.environ.get('DEFAULT_COUNTRY_CODE', 'POL')
 
 LDAP_SERVER_OBJECT_USER_CLASS = 'user'  # possible values: user, person
 
-ADMIN_SITE_HEADER = 'Ralph 3'
-ADMIN_SITE_TITLE = 'Ralph 3'
+ADMIN_SITE_HEADER = 'CloudAMiGO'
+ADMIN_SITE_TITLE = 'CloudAMiGO'
 
 LOGGING = {
     'version': 1,

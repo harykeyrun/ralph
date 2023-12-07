@@ -36,7 +36,7 @@ http://ralph-demo.allegro.tech/
 ## Documentation
 Visit our documentation on [readthedocs.org](https://ralph-ng.readthedocs.org)
 
-# RALPH - CMDB INSTALLATION
+# PART 2 - CMDB INSTALLATION
 ## SETUP
 ### Hari K
 #### harikiran.cse@gmail.com

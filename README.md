@@ -39,9 +39,9 @@ Visit our documentation on [readthedocs.org](https://ralph-ng.readthedocs.org)
 # PART 2 - CMDB INSTALLATION
 ## SETUP
 ### Hari K
-#### harikiran.cse@gmail.com
+### harikiran.cse@gmail.com
 
-#### Installation on Ubuntu 20.x
+### Installation on Ubuntu 20.x
 * Use sudo
 * NVM setup and installation
 * Update first using apt update
@@ -77,12 +77,12 @@ Visit our documentation on [readthedocs.org](https://ralph-ng.readthedocs.org)
 ## Clone the code 
 * https://github.com/harykeyrun/ralph
 ### Code execution
-#### DEV profile setup
+### DEV profile setup
   * Go to CMDB repo local folder location after cloning the code. Type the repo name
     *     cd ralph/
     *     pip3.6 install --upgrade pip
     *     pip3.6 install -r requirements/dev.txt “This may fail”
-#### Fix the dependencies
+### Fix the dependencies
      apt-get install libmysqlclient-dev libsasl2-dev python-dev libldap2-dev libssl-dev
   * Go to requirements
     * Edit the file openstack.txt
@@ -94,22 +94,22 @@ Visit our documentation on [readthedocs.org](https://ralph-ng.readthedocs.org)
     * Also edit the file base.txt
     *     pytz==2015.7
     *     Markdown==3.2.1
-#### Install mysql client
+### Install mysql client
 
     * pip3.6 install mysqlclient==1.3.14
 
     * OR 
 
     * pip3.6 install mysqlclient
-#### More libraries
+### More libraries
     *     apt-get install gcc
     *     apt-get install libsasl2-dev python-dev libldap2-dev libssl-dev
-#### Try now
+### Try now
     *     pip3.6 install -r requirements/dev.txt “This time it should work”
     *     pip3.6 install -r requirements/docs.txt
-#### One more package
+### One more package
     *     apt install python3-devel
-    *     NPM installation
+### NPM installation
     *     npm install 
     *     npm audit fix
 #### Build node modules (For every change in the static files)
@@ -124,14 +124,14 @@ Visit our documentation on [readthedocs.org](https://ralph-ng.readthedocs.org)
     *     Sudo -i
     *     Developer setup
     *     python3.6 setup.py develop
-### Create schema using the code
+## Create schema using the code
     *     dev_ralph migrate
     *     Create super user
     *     dev_ralph createsuperuser
-### Execute developer instance
+## Execute current branch
     *     make menu
     *     make run
-###### verify on http://localhost:8000
+### verify on http://localhost:8000
 
 
 
